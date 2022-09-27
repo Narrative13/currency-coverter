@@ -1,0 +1,41 @@
+.cards-container{
+    margin-top: 50px;
+}
+
+.container{
+    margin-top: 30px;
+}
+
+.card{
+    background-color: aliceblue;
+    margin: 5px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    min-width: 300px;
+}
+
+.card h5{
+    text-transform: uppercase; 
+    font-weight: bolder;
+}
+
+.cards-container{
+    display: flex;
+    flex-direction:row;
+    margin-top: 50px;
+   
+}
+
+@media (max-width: 600px) {
+    .cards-container{
+        display: flex;
+        flex-direction:column;
+       
+    }
+}
+
+.grp-container{
+    margin-top: 2em;
+    min-width: 320px;
+}
